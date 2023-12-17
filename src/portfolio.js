@@ -204,7 +204,7 @@ const workExperiences = {
     {
       role: "Software Engineer Intern",
       company: "United Software Corporation",
-      companylogo: require("./assets/images/usclogo.jpeg"),
+      companylogo: require("./assets/images/United-Software-Corporation-LinkedIn-Logo-.png"),
       date: "May 2023 – Aug 2023",
       desc: "",
       descBullets: [
