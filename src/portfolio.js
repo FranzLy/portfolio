@@ -49,12 +49,18 @@ const skillsSection = {
   subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop interactive full-stack web applications using MERN stack (MongoDB, Express.js, React.js, Node.js)"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "⚡ Backend development with Java and Spring Boot, including building RESTful APIs and data management with SQL and NoSQL databases"
+    ),
+    emoji(
+      "⚡ Frontend development with advanced HTML, CSS, and JavaScript, plus frameworks like React.js and Bootstrap"
+    ),
+    emoji(
+      "⚡ Building scalable, distributed systems and infrastructure"
+    ),
+    emoji("⚡ Skilled in developing efficient, concurrent applications using advanced multi-threading techniques")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
