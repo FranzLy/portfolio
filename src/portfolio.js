@@ -198,7 +198,7 @@ const workExperiences = {
     {
       role: "Software Engineer Intern",
       company: "United Software Corporation",
-      companylogo: require("./assets/images/1630595408302.jpeg"),
+      companylogo: require("./assets/images/usclogo.jpeg"),
       date: "May 2023 – Aug 2023",
       desc: "",
       descBullets: [
@@ -235,7 +235,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME SELECTED PROJECTS THAT I DEVELOPED",
   projects: [
     {
       image: require("./assets/images/cineSocialHub.png"),

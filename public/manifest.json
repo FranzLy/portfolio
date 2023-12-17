@@ -1,6 +1,7 @@
 {
   "short_name": "DeveloperFolio",
   "name": "DeveloperFolio",
+  /**
   "icons": [
     {
       "src": "/favicon.ico",
@@ -18,6 +19,7 @@
       "sizes": "384x384"
     }
   ],
+*/
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#6c63ff",
