@@ -250,7 +250,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://cs5610-movie-client.netlify.app"
+          url: "https://cinesocialhub.netlify.app/"
         }
         //  you can add extra buttons here.
       ]
