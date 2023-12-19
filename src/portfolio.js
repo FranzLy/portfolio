@@ -29,7 +29,11 @@ const greeting = {
   
   resumeLink:
     "https://drive.google.com/file/d/1U_rxXVwjd4MCLJ2DgR1rciARfCEmi1aw/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+  
+    transcriptLink:
+    "https://drive.google.com/file/d/1qT8zZIeVsrdOk0sAs-rTXMBL29Od9LNE/view?usp=sharing", 
+    displayGreeting: true // Set false to hide this section, defaults to true
+
 };
 
 // Social Media Links
@@ -134,7 +138,7 @@ const educationInfo = {
       logo: require("./assets/images/northeasternuniversity_logoseal.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "September 2022 - May 2025",
-      desc: "GPA 4.0 in the program, Took courses about Intensive Foundations of CS, Discrete Structures, Object-Oriented Design, Data Str, Algo & App in CmpSys, Database Management Sys, Web Development, Computer Systems, Natural Language Processing...",
+      desc: "GPA 4.0, Took courses about Intensive Foundations of CS, Discrete Structures, Object-Oriented Design, Data Str, Algo & App in CmpSys, Database Management Sys, Web Development, Computer Systems, Natural Language Processing...",
       descBullets: [
       ]
     },
