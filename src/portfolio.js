@@ -197,7 +197,7 @@ const workExperiences = {
   experience: [
     {
       role: "Systems and Infrastructure Engineer Intern ",
-      company: "Linkedin",
+      company: "LinkedIn",
       companylogo: require("./assets/images/linkedin-icon-2048x2048-ya5g47j2.png"),
       date: "June 2024 – Sep 2024",
       desc: "",
@@ -346,7 +346,7 @@ const blogSection = {
         "My primary goal is to bridge the gap between my background in engineering and the field of technology. I aspire to combine my knowledge of engineering with cutting-edge technologies such as AI, sys and infra, and web applications to develop smart and sustainable solutions for the built environment. "
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
