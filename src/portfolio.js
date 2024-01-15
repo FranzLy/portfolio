@@ -23,7 +23,7 @@ const greeting = {
   username: "Xiaowen Sun",
   title: "About me",
   subTitle: emoji(
-    "Hi all, I'm Xiaowen, A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs /SpringBoot and some other cool libraries and frameworks."
+    "Hi all, I'm Xiaowen, A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / React.js / Node.js /SpringBoot and some other cool libraries and frameworks."
   ),
 
   
@@ -123,6 +123,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      "skillName": "Docker",
+      "fontAwesomeClassname": "fab fa-docker"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -202,20 +206,40 @@ const workExperiences = {
       date: "June 2024 – Sep 2024",
       desc: "",
       descBullets: [
-        "Scaling LinkedIn's infra by architecting and maintaining Internet-scale distributed systems. applying advanced frameworks for caching, queuing, and RPC, leveraging multi-threading and distributed computing to enhance system performance."
+        "Contributing to cutting-edge data infrastructure projects: storage, streams, media, and analytics platforms.",
+        "Leveraging Apache Kafka, Rest.li, and Espresso to develop and support large-scale systems.",
+        "Utilizing distributed systems, algorithms, and frameworks for caching, queuing, and data storage.",
+        "Employing multi-threading and concurrency skills for system performance optimization."
       ]
     },
     {
-      role: "Software Engineer Intern",
+      role: "Teaching Assistant",
+      company: "Northestern University",
+      companylogo: require("./assets/images/khoury_college_logo.jpeg"),
+      date: "Jan 2024 – Present",
+      desc: "",
+      descBullets: [
+        "Mentored and assisted 30+ students in understanding complex concepts related to C language, data structures, algorithms, and their applications within computer systems.",
+        "Conducted office hours to provide additional support and clarification on course materials.",
+        "Graded assignments, exams, and provided constructive feedback to enhance student understanding.",
+        "Demonstrated strong communication and interpersonal skills in assisting students with diverse learning needs.",
+        "Contributed to the overall success of the course by fostering a positive and inclusive learning environment."
+      ]
+    },
+    {
+      role: "Tech(SDE) Intern",
       company: "United Software Corporation",
       companylogo: require("./assets/images/United-Software-Corporation-LinkedIn-Logo-.png"),
       date: "May 2023 – Aug 2023",
       desc: "",
       descBullets: [
-        "Developed an interactive full-stack online assessment and training web application for 500+ active users, designed web pages with HTML, CSS, JavaScript and React.js",
-        "Implemented extensive RESTful APIs with Node.js and Express.js for efficient frontend-backend communication",
-        "Designed MongoDB database for user, trainee batch, question and answer, performed automatic API testing with Postman, reduced testing time by 50%",
-        "Implemented user authentication with JWT (JSON Web Token), achieved password email reset by Nodemailer"
+        "Spearheaded the development of a full-stack online assessment and training platform catering to 500+ active users.",
+        "Crafted engaging and interactive web pages using HTML, CSS, JavaScript, and React.js.",
+        "Implemented extensive RESTful APIs with Node.js and Express.js for efficient frontend-backend communication.",
+        "Designed and optimized MongoDB database schema for efficient user management and dynamic content storage.",
+        "Performed automatic API testing with Postman, reducing testing time by 50%.",
+        "Implemented secure user authentication with JWT, achieved password email reset by Nodemailer, maintained version control by Git.",
+        "Implemented and maintained CI/CD pipelines, ensuring efficient codebase management with Git."
       ]
     },
     {
@@ -250,7 +274,10 @@ const bigProjects = {
     {
       image: require("./assets/images/cineSocialHub.png"),
       projectName: "CineSocialHub",
-      projectDesc: "CineSocialHub is a platform designed for movie enthusiasts to connect, share, and engage in discussions about films and cinema culture.",
+      projectDesc: "A MERN stack Twitter-style social media platform designed for movie enthusiasts to connect, share, and engage in discussions about films and cinema culture.",
+     
+     
+     
       footerLink: [
         {
           name: "Visit Website",
@@ -262,7 +289,7 @@ const bigProjects = {
     {
       image: require("./assets/images/takeout.png"),
       projectName: "Takeout management system",
-      projectDesc: "A takeout management system with SpringBoot, Mybatis and Mysql tech stack",
+      projectDesc: "A comprehensive enterprise-level food takeout management system with SpringBoot, Mybatis, Redis, Docker and Mysql tech stack",
       footerLink: [
         {
           name: "Visit Github",
