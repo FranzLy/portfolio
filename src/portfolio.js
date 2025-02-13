@@ -233,25 +233,27 @@ const workExperiences = {
       date: "May 2023 – Aug 2023",
       desc: "",
       descBullets: [
-        "Spearheaded the development of a full-stack online assessment and training platform catering to 500+ active users.",
-        "Crafted engaging and interactive web pages using HTML, CSS, JavaScript, and React.js.",
-        "Implemented extensive RESTful APIs with Node.js and Express.js for efficient frontend-backend communication.",
-        "Designed and optimized MongoDB database schema for efficient user management and dynamic content storage.",
-        "Performed automatic API testing with Postman, reducing testing time by 50%.",
-        "Implemented secure user authentication with JWT, achieved password email reset by Nodemailer, maintained version control by Git.",
-        "Implemented and maintained CI/CD pipelines, ensuring efficient codebase management with Git."
+        "Developed a scalable full-stack education platform with MERN stack, supporting over 1,000+ users in agile practices.",
+        "Built a Node.js backend with 40+ RESTful APIs, enabling core features for user interaction and data management, leading to a 43.2% improvement in user engagement.",
+        "Implemented MongoDB, enhancing query performance by 31% through optimized data storage and query design.",
+        "Set up and maintained CI/CD pipelines using GitLab and Docker, automating deployment to AWS.",
+        "Implemented automated testing with 92% code coverage, automating regression tests with Robot Framework, reducing test cycle time by 50%."
       ]
     },
     {
-      role: "Project Manager/ Engineer",
+      role: "Engineer",
       company: "CCCC-FHDI Engineering Co., Ltd. ",
       companylogo: require("./assets/images/1631334118437.jpeg"),
-      date: "Jul 2017 – Jul 2022",
+      date: "Jan 2022 – Jul 2022",
       desc: "",
       descBullets: [
         "Developed a Python program to process pavement data, output visualized data with Matplotlib, reduced design cycle by 30%",
         "Successfully completed design for 30+ civil engineering projects",
-        "Overall management of design projects, led design team completing design projects with total costs of over 88 million USD"
+        "Overall management of design projects, led design team completing design projects with total costs of over 88 million USD",
+        "Designed and implemented a data pipeline using Kafka and Spark for stream and batch processing of traffic data, boosting processing efficiency by 30%.",
+        "Contributed data-driven optimization solutions using traffic big data, reducing traffic congestion by 25% and generating $2.5M in economic benefits in key areas.",
+        "Stored and analyzed historical traffic data with Hadoop and MySQL, providing insights that led to a 20% improvement in traffic light scheduling and overall flow.",
+        "Automated workflows with Airflow, ensuring seamless, hands-off operation and 95% system reliability."
       ]    
     },
   ]
