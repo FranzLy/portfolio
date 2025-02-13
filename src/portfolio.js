@@ -172,19 +172,19 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend", //Insert stack or technology you have experience in
-      progressPercentage: "70%" //Insert relative proficiency in percentage
+      progressPercentage: "60%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "80%"
+      progressPercentage: "85%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "65%"
+      progressPercentage: "75%"
     },
     {
       Stack: "Systems and Infrastructure",
-      progressPercentage: "50%"
+      progressPercentage: "85%"
     },
     {
       Stack: "Data Management",
@@ -206,24 +206,10 @@ const workExperiences = {
       date: "June 2024 – Sep 2024",
       desc: "",
       descBullets: [
-        "Contributing to cutting-edge data infrastructure projects: storage, streams, media, and analytics platforms.",
-        "Leveraging Apache Kafka, Rest.li, and Espresso to develop and support large-scale systems.",
-        "Utilizing distributed systems, algorithms, and frameworks for caching, queuing, and data storage.",
-        "Employing multi-threading and concurrency skills for system performance optimization."
-      ]
-    },
-    {
-      role: "Teaching Assistant",
-      company: "Northestern University",
-      companylogo: require("./assets/images/khoury_college_logo.jpeg"),
-      date: "Jan 2024 – Present",
-      desc: "",
-      descBullets: [
-        "Mentored and assisted 30+ students in understanding complex concepts related to C language, data structures, algorithms, and their applications within computer systems.",
-        "Conducted office hours to provide additional support and clarification on course materials.",
-        "Graded assignments, exams, and provided constructive feedback to enhance student understanding.",
-        "Demonstrated strong communication and interpersonal skills in assisting students with diverse learning needs.",
-        "Contributed to the overall success of the course by fostering a positive and inclusive learning environment."
+        "Supported LinkedIn’s scalable distributed systems by facilitating the transition to Apache Flink as the new batch compute stack, leading to a 25% improvement in system performance",
+        "Independently designed and implemented a new storage backend for the Flink History Server , restructed the archive storage from file-based to RocksDB kvStore with multithreaded and pluggable architecture.",
+        "Boosted History Server performance by reducing inode usage by 99.99% and memory load by 95.6%, increasing storage capacity by 249,482x, and accelerating data retrieval by 4.25x; Contributed to the Apache open source community.",
+        "Onboarded Flink-Batch to multiple clusters with Hadoop and Hive using DevOps practices, achieving <1% downtime, improved system scalability by 3x, reduced load imbalance by 80%, and enabling high system performance and reliability."
       ]
     },
     {
