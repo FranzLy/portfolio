@@ -233,9 +233,6 @@ const workExperiences = {
       date: "Jan 2022 – Jul 2022",
       desc: "",
       descBullets: [
-        "Developed a Python program to process pavement data, output visualized data with Matplotlib, reduced design cycle by 30%",
-        "Successfully completed design for 30+ civil engineering projects",
-        "Overall management of design projects, led design team completing design projects with total costs of over 88 million USD",
         "Designed and implemented a data pipeline using Kafka and Spark for stream and batch processing of traffic data, boosting processing efficiency by 30%.",
         "Contributed data-driven optimization solutions using traffic big data, reducing traffic congestion by 25% and generating $2.5M in economic benefits in key areas.",
         "Stored and analyzed historical traffic data with Hadoop and MySQL, providing insights that led to a 20% improvement in traffic light scheduling and overall flow.",
