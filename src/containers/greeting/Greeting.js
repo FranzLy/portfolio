@@ -1,3 +1,10 @@
+/*
+ * @Description: 
+ * @Author: liyu
+ * @Version: 
+ * @Date: 2025-05-29 16:44:18
+ * @LastEditTime: 2025-05-29 17:48:33
+ */
 import React, {useContext} from "react";
 import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
@@ -42,8 +49,8 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                    href={require("./resume.pdf")}
-                    download="Resume.pdf"
+                    href={require("./Resume-Franz Lee.pdf")}
+                    download="Resume-Franz Lee.pdf"
                     className="download-link-button"
                   >
                     <Button text="Download my resume" />
