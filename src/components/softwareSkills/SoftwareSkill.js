@@ -31,7 +31,7 @@ import {
   SiPrometheus,
   SiGrafana,
   SiOpenai,
-  SiLangchain,
+  // SiLangchain,
 } from "react-icons/si";
 
 export const iconMap = {
@@ -60,7 +60,7 @@ export const iconMap = {
   SiPrometheus,
   SiGrafana,
   SiOpenai,
-  SiLangchain,
+  // SiLangchain,
 };
 
 
