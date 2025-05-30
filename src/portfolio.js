@@ -38,9 +38,9 @@ const socialMediaLinks = {
   github: "https://github.com/FranzLy",
   linkedin: "https://www.linkedin.com/in/franz-lee/",
   gmail: "@gmail.com",
-  // gitlab: "https://gitlab.com/saadpasta",
+  // gitlab: "https://gitlab.com/FranzLy",
   // facebook: "https://www.facebook.com/saad.pasta7",
-  // medium: "https://medium.com/@saadpasta",
+  // medium: "https://medium.com/@FranzLy",
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -315,7 +315,7 @@ const blogSection = {
         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+      url: "https://medium.com/@FranzLy/why-react-is-the-best-5a97563f423e",
       title: "Why REACT is The Best?",
       description:
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
@@ -336,7 +336,7 @@ const talkSection = {
     {
       title: "Build Actions For Google Assistant",
       subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
+      slides_url: "https://bit.ly/FranzLy-slides",
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
