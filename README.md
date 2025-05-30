@@ -44,7 +44,7 @@ Created something awesome for your fork of the portfolio and want to share it? F
 ✔️ Twitter Timeline\
 ✔️ GitHub Profile
 
-To view a live example, **[click here](https://developerfolio.js.org/)**.
+To view a live example, **[click here](https://portfolio.js.org/)**.
 
 
 ## Getting Started
@@ -61,21 +61,21 @@ git@2.17.1 or higher
 ### Docker Commands
 
 ```
-1) BUILD IMAGE : docker build -t developerfolio:latest .
-2) RUN IMAGE: docker run -t -p 3000:3000 developerfolio:latest
+1) BUILD IMAGE : docker build -t portfolio:latest .
+2) RUN IMAGE: docker run -t -p 3000:3000 portfolio:latest
 ```
 
 
 ## How To Use 
 
-From your command line, clone and run developerFolio:
+From your command line, clone and run portfolio:
 
 ```bash
 # Clone this repository
 git clone https://github.com/FranzLy/portfolio.git
 
 # Go into the repository
-cd developerFolio
+cd portfolio
 
 # Setup default environment variables
 
@@ -100,7 +100,7 @@ Generate a classic GitHub personal access token following these [instructions](h
 Note: Configuring environment variables before deploying your portfolio is highly recommended as some components depend on API data. 
 
 ```bash
-- DeveloperFolio
+- portfolio
   - node_modules
   - public
   - src
@@ -225,7 +225,7 @@ The Profile and the Repository information from GitHub is only created at the ti
 
 This section guides you to deploy your portfolio on GitHub pages.
 
-- Navigate to `package.json` and enter your domain name instead of `https://developerfolio.js.org/` in `homepage` variable. For example, if you want your site to be `https://<your-username>.github.io/developerFolio`, add the same to the homepage section of `package.json`.
+- Navigate to `package.json` and enter your domain name instead of `https://portfolio.js.org/` in `homepage` variable. For example, if you want your site to be `https://<your-username>.github.io/portfolio`, add the same to the homepage section of `package.json`.
 
 - In short you can also add `/devloperFolio` to `package.json` as both are exactly same. Upon doing so, you tell `create-react-app` to add the path assets accordingly.
 
