@@ -85,7 +85,7 @@ const skillsSection = {
     { skillName: "Prometheus", iconKey: "SiPrometheus", color: "#E6522C" },
     { skillName: "Grafana", iconKey: "SiGrafana", color: "#F46800" },
     // { skillName: "OpenAI", iconKey: "SiOpenai", color: "#412991" },
-    { skillName: "LangChain", iconKey: "SiLangchain", color: "#000000" },
+    // { skillName: "LangChain", iconKey: "SiLangchain", color: "#000000" },
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
