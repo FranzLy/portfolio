@@ -23,9 +23,7 @@ const greeting = {
   username: "Franz Lee",
   title: "Hi all, I'm Franz",
   subTitle: emoji(
-    "A passionate Software Engineer 🚀 having 4+ years of experience of building reliable, high-performance and scalable systems. \
-    Proficient in Java, Golang, C++ and React, with strong hands-on skills in Spring Boot, Spring Cloud, Redis, Kafka and related technologies. \
-    Experienced in designing RESTful APIs, microservices architecture, and distributed systems."
+    "A passionate Software Engineer 🚀 having 4+ years of experience of building reliable, high-performance and scalable systems. Proficient in Java, Golang, C++ and React, with strong hands-on skills in Spring Boot, Spring Cloud, Redis, Kafka and related technologies. Experienced in designing RESTful APIs, microservices architecture, and distributed systems."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1gxM0JTq0iKg6mhJMRAAfBFlQMrGBg0a5/view?usp=sharing", // Set to empty to hide the button
@@ -170,8 +168,7 @@ const workExperiences = {
         "Developed comprehensive testing framework with JUnit and Mockito, achieving 90% test coverage."
       ]
     }
-  ],
-    display: true // Set false to hide this section, defaults to true
+  ]
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
